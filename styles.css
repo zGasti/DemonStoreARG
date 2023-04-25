@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(./img/5901f8b204b916acbd1c76483430b427.jpg);
+}
+
+.hero__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    padding-bottom: 0;
+}
+
+.hero__header .logo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2rem;
+}
+
+.header__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.header__right p {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.header__right .menu {
+    list-style: none;
+    display: flex;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.4rem;
+    gap: 2rem;
+    letter-spacing: 1px;
+}
+
+.hero__main {
+    display: flex;
+}
+
+.hero__main > div {
+    flex: 1;
+}
+
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3rem;
+}
+
+.hero__text h4 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    font-size: 1.2;
+    padding-left: 1rem;
+}
+
+.hero__text h2 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 5rem;
+    text-shadow: 4px;
+}
+
+.hero__img img {
+    max-width: 900px;
+}
+
+.hero__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-block: 3rem;
+    position: relative;
+}
+
+.sale {
+    position: absolute;
+    bottom:  5rem;
+    left: 2rem;
+    background-color: red;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 2px dashed white;
+    outline: 5px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.price 
+.only
+.price small {
+    color: white;
+}
+
+.price {
+    font-size: 2.4rem;
+    line-height: 1;
+}
+
+.price small {
+    font-size: 1.4rem;
+}
+
+.only {
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: 2px;
+}
+
+ul a:hover {
+    color: red;
+}
+
+/**** GRID ****/
+
+.grid {
+    padding: 6rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "item1 item2"
+        "item1 item3";
+        gap: 2rem;
+}
+
+.grid__item {
+    border-radius: 1rem;
+    background-size: cover;
+    background-position: center center;
+    padding: 2rem;
+}
+
+.grid__item h5,
+.grid__item h4 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+}
+
+.grid__item h5 {
+    font-size: 1.2rem;
+}
+
+.grid__item h4 {
+    font-size: 1.6rem;
+}
+
+.grid__item1 {
+    grid-area: item1;
+    background-image: url(./img/ellie-the-last-of-us-4k-yl-2048x1152.jpg);
+    height: 500px;
+}
+
+.grid__item2 {
+    grid-area: item2;
+    background-image: url(./img/call-of-duty-black-ops-3-nomad-wallpaper-3840x1440_92.jpg);
+}
+
+.grid__item3 {
+    grid-area: item3;
+    background-image: url(./img/46585-h.jpg);
+}
+
+/**** FOOTER ****/
+
+.footer {
+    padding: 6rem;
+    padding-top: 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./img/depositphotos_372893742-stock-photo-two-azure-neon-lighting-lines.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding: 2rem;
+    position: relative;
+}
+
+.footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black(0,0,0,0.685);
+}
+
+.footer__top,
+.footer__bottom {
+    z-index: 1;
+}
+
+.footer__top > div {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer__top > div:nth-child(2) {
+    align-items: flex-end;
+    font-size: 1rem;
+}
+
+.footer__top h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.footer__top p {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.footer__top {
+    display: flex;
+    padding-block: 3rem;
+}
+
+.footer__bottom {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.footer__bottom .iconos {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer__bottom .iconos i {
+    color: white;
+}
+
+.iconos a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.iconos a:hover{
+    background-color: red;
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 480px) {
+    .hero__main{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) and (max-width:1024px) {
+    .hero__header{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .header__right{
+        align-items: flex-start;
+        gap: 2rem;
+    }
+    .hero__main{
+        flex-direction: column;
+        padding-top: 0rem;
+        padding-inline: 3rem;
+    }
+    .hero__img{
+        padding-top: 0;
+    }
+    .hero__img img{
+        max-width: 100%;
+    }
+    .grid{
+        display: flex;
+        flex-direction: column;
+        padding-inline: 2rem;
+        padding-top: 2rem;
+    }
+    .grid__item{
+        flex: 1;
+    }
+    footer{
+        padding: 2rem;
+        padding-top: 0%;
+    }
+    .footer__top{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .address{
+        align-items: flex-start;
+    }
+    .footer__bottom{
+        flex-direction: column;
+    }
+}
