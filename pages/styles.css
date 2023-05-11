@@ -6,8 +6,14 @@
     box-sizing: border-box;
 }
 
+/**** PRODUCTS ****/
+
 .navbar span{
     color: red;
+}
+
+.jumbotron span {
+    color: white
 }
 
 .nav-link:hover{
@@ -32,7 +38,7 @@
 
 h2{
     background-color: black;
-    color: springgreen;
+    color: red;
     text-align: center;
     padding: 20px;
     font-size: 30px;
@@ -90,7 +96,7 @@ h2{
     background-image: url(../img2/wallpapersden.com_xbox-joystick-console_3840x2160.jpg);
 }
 
-/**** FOOTER ****/
+/**** FOOTER PRODUCTS ****/
 
 footer{
     bottom: 0;
@@ -242,4 +248,228 @@ footer .website-logo{
     .galeria{
         height: 900px;
     }
+}
+
+/**** CONTACT ****/
+
+body{
+    background: #181818;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.content{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+.logo {
+    text-align: center;
+    font-size: 3em;
+}
+
+.logo span{
+    color: red;
+}
+
+.contact-wrapper {
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form{
+    background: #222222;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-form form p{
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form .block {
+    grid-column: 1/3;
+}
+
+.contact-form form button,
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #fff;
+    border-bottom: 1px solid #d63031;
+}
+
+.contact-form form button {
+    background: #b70e21;
+    color: #000;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #d63031;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}
+
+.contact-info{
+    background: #000;
+}
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.contact-info ul{
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li{
+    padding: .3em;
+}
+
+@media (min-width: 580px){
+    body{
+        padding: 0;
+    }
+    .contact-wrapper{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .contact-wrapper > *{
+        padding: 2em;
+    }
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p{
+        padding: 1em;
+        text-align: left;
+    }
+}
+
+/**** GAMES ****/
+
+h3{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 0;
+}
+
+.grid {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "item1 item2"
+        "item1 item3";
+        gap: 1rem;
+}
+
+.grid__item {
+    border-radius: 1rem;
+    background-size: cover;
+    background-position: center center;
+    padding: 2rem;
+}
+
+.grid__item h5,
+.grid__item h4 {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+}
+
+.grid__item1 {
+    grid-area: item1;
+    background-image: url(../img3/KRATOS-copia.jpg);
+    height: 500px;
+}
+
+.grid__item2 {
+    grid-area: item2;
+    background-image: url(../img3/73862_66_ghost-of-tsushima-reduces-disk-reads-for-blazing-fast-ps4-load-times_full.jpg);
+}
+
+
+.grid__item3 {
+    grid-area: item3;
+    background-image: url(../img3/1643243333_003439_1643243556_gigante_normal.jpg);
+}
+
+.imagenes {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 200px);
+}
+
+
+.item{
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    padding: 1rem;
+}
+
+
+.item9{
+    background-image: url(../img3/Crash-Bandicoot-1024x576.jpg);
+}
+
+.item10{
+    background-image: url(../img3/373868.jpg);
+}
+
+.item11{
+    background-image: url(../img3/thumb-1920-333894.jpg);
+}
+
+.item12{
+    background-image: url(../img3/1926268.webp);
+}
+
+.item13{
+    background-image: url(../img3/fifa-23-messi-sbc-solution-potm.jpeg);
+}
+
+.item14{
+    background-image: url(../img3/shadow-of-the-colossus-2018-ps4-6w.jpg);
+}
+
+.item15{
+    background-image: url(../img3/wp1913622.jpg);
+}
+
+.item16{
+    background-image: url(../img3/413137-assassins-creed-hd-wallpaper-2200x1238-xiaomi.jpg);
 }

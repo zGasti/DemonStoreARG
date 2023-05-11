@@ -1,0 +1,74 @@
+.hero__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    padding-bottom: 0;
+
+    .hero__header .logo {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 2rem;
+    }
+
+    .header__right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 1rem;
+
+        .header__right .menu {
+            list-style: none;
+            display: flex;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 1.4rem;
+            gap: 2rem;
+            letter-spacing: 1px;
+        }
+    }
+
+    .hero__main {
+        display: flex;
+
+        .hero__text {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 3rem;
+        }
+    }
+
+    .hero__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-block: 3rem;
+        position: relative;
+
+        .sale {
+            position: absolute;
+            bottom:  5rem;
+            left: 2rem;
+            background-color: red;
+            padding: 1rem;
+            border-radius: 50%;
+            border: 2px dashed white;
+            outline: 5px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            font-family: 'Bebas Neue', cursive;
+
+            .price {
+                font-size: 2.4rem;
+                line-height: 1;
+            }
+
+            .only {
+                font-size: 2rem;
+                line-height: 1;
+                letter-spacing: 2px;
+            }
+        }
+    }
+}

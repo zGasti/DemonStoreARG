@@ -4,33 +4,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTACT</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="../img2/425096-PSP-play-PlayStation-joystick-PlayStation_4.jpg" type="image/x-icon">
+    <title> DemonStoreArg - Contact</title>
+    <meta name="description" content="contact us through our established means.">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
-    <header>
-        <h1>CONTACT THE COMPANY HERE</h1>
-        <ul>
-            <li>
-                <a href="../pages/company.html">company</a>
-            <li>
-                <a href="../pages/contact.html">contact</a>
-            </li>
-            <li>
-                <a href="../pages/games.html">games</a>
-            </li>
-            <li>
-                <a href="../pages/products.html">products</a>
-            </li>
-            <li>
-                <a href="../index.html">home</a>
-            </li>
-        </ul>
-    </header>
-    <main>
-        <h2>CONTACT</h2>
-    </main>
-    <footer>
-        <p>© DemonStoreArg 2023. all rights deserved</p>
-    </footer>
+    <!-- NavBar inicia -->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">🎮 Demon<span>StoreARG</span></a>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/products.html">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/company.html">Company</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pages/games.html">Games</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- NavBar final -->
+    <div class="content"></div>
+        <h1 class="logo">Contact <span>us</span></h1>
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <form action="">
+                    <p>
+                        <label for="fullname">Fullname</label>
+                        <input type="text" name="fullname" id="fullname">
+                    </p>
+                    <p>
+                        <label>Email address</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <label>Phone</label>
+                        <input type="tel" name="phone">
+                    </p>
+                    <p>
+                        <label>Affair</label>
+                        <input type="text" name="affair">
+                    </p>
+                    <p class="block">
+                        <label>Message</label>
+                        <textarea name="message" rows="3"></textarea>
+                    </p>
+                    <p>
+                        <button type="submit">
+                            Send
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>More Info</h4>
+                <ul>
+                    <li><i class="bi bi-geo-alt"></i> Avenida 3434 Olimpo</li>
+                    <li><i class="bi bi-envelope-paper"></i> DemonStoreArg@gmail.com</li>
+                    <li><i class="bi bi-telephone"></i> +54 9 1138166371</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quos laborum cupiditate. Voluptatibus veniam optio facere vero distinctio iusto eius.</p>
+                <p>DemonStoreArg.com</p>
+            </div>
+        </div>
+        <hr>
+        <hr>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-content-container"></div>
+                <h3 class="website-logo">🎮 DemonStoreArg</h3>
+                <span class="footer-info">📞 +54 9 1138166371</span>
+                <span class="footer-info">📧 Demonstorearg@gmail.com</span>
+            </div>
+            <div class="footer-menus">
+                <div class="footer-content-container">
+                    <span class="menu-title">legal</span>
+                    <a href="" class="menu-item-footer">Privacy Policy</a>
+                    <a href="" class="menu-item-footer">Cookies</a>
+                    <a href="" class="menu-item-footer">Terms & Conditions</a>
+                </div>
+                <div class="footer-content-container">
+                    <span class="menu-title">follow us</span>
+                    <div class="social-container">
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-container">
+                <span class="copyright">&copy;2023, DemonStoreArg.com.</span>
+            </div>
+        </footer>
 </body>
 </html>

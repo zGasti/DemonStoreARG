@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./img/depositphotos_372893742-stock-photo-two-azure-neon-lighting-lines.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding: 2rem;
+    position: relative;
+
+    .footer__top > div {
+        flex: 1;
+        min-width: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .footer__top h2 {
+            font-family: 'Bebas Neue', cursive;
+            font-weight: 300;
+            font-size: 2rem;
+        }
+
+        .footer__top p {
+            font-family: 'Alfa Slab One', cursive;
+        }
+    }
+
+    .footer__bottom {
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 3rem;
+    }
+
+    .iconos a{
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 50%;
+    }
+}
