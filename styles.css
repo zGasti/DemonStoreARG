@@ -100,7 +100,7 @@
     flex-direction: column;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
-    left: 32rem;
+    left: 2rem;
 }
 
 .price 
@@ -268,7 +268,7 @@ ul a:hover {
     transition: all 0.5s;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
     .hero__main{
         flex-direction: column;
     }
