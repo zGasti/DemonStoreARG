@@ -167,16 +167,31 @@ ul a:hover {
     grid-area: item1;
     background-image: url(./img/ellie-the-last-of-us-4k-yl-2048x1152.jpg);
     height: 500px;
+    transition: 1s;
+}
+
+.grid__item1:hover{
+    transform: scale(0.9);
 }
 
 .grid__item2 {
     grid-area: item2;
     background-image: url(./img/call-of-duty-black-ops-3-nomad-wallpaper-3840x1440_92.jpg);
+    transition: 1s;
+}
+
+.grid__item2:hover{
+    transform: scale(0.9);
 }
 
 .grid__item3 {
     grid-area: item3;
     background-image: url(./img/46585-h.jpg);
+    transition: 1s;
+}
+
+.grid__item3:hover{
+    transform: scale(0.9);
 }
 
 /**** FOOTER ****/
