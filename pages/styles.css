@@ -8,6 +8,10 @@
 
 /**** PRODUCTS ****/
 
+.navbar-collapse.collapse.show{
+    z-index: 1 !important;
+}
+
 .navbar span{
     color: red;
 }
@@ -66,34 +70,74 @@ h2{
 
 .item1{
     background-image: url(../img2/PS3-New-Model-2.png);
+    transition: 1s;
+}
+
+.item1:hover {
+    transform: scale(0.9);
 }
 
 .item2{
     background-image: url(../img2/wp5075260.webp);
+    transition: 1s;
+}
+
+.item2:hover {
+    transform: scale(0.9);
 }
 
 .item3{
     background-image: url(../img2/dps_joysticks-and-foot-pedals-sace.jpg);
+    transition: 1s;
+}
+
+.item3:hover {
+    transform: scale(0.9);
 }
 
 .item4{
     background-image: url(../img2/wp2328257.jpg);
+    transition: 1s;
+}
+
+.item4:hover{
+    transform: scale(0.9);
 }
 
 .item5{
     background-image: url(../img2/gaming-xbox-controller-joystick.jpg);
+    transition: 1s;
+}
+
+.item5:hover{
+    transform: scale(0.9);
 }
 
 .item6{
     background-image: url(../img2/mostafa-farrag-test.jpg);
+    transition: 1s;
+}
+
+.item6:hover{
+    transform: scale(0.9);
 }
 
 .item7{
     background-image: url(../img2/joystick_ps5_dualsense03.jpg);
+    transition: 1s;
+}
+
+.item7:hover{
+    transform: scale(0.9);
 }
 
 .item8{
     background-image: url(../img2/wallpapersden.com_xbox-joystick-console_3840x2160.jpg);
+    transition: 1s;
+}
+
+.item8:hover{
+    transform: scale(0.9);
 }
 
 /**** FOOTER PRODUCTS ****/
@@ -252,6 +296,10 @@ footer .website-logo{
 
 /**** CONTACT ****/
 
+.navbar-collapse.collapse.show{
+    z-index: 1 !important;
+}
+
 body{
     background: #181818;
     color: white;
@@ -369,6 +417,10 @@ body{
 
 /**** GAMES ****/
 
+.navbar-collapse.collapse.show{
+    z-index: 1 !important;
+}
+
 h3{
     background-color: black;
     color: white;
@@ -408,17 +460,31 @@ h3{
     grid-area: item1;
     background-image: url(../img3/KRATOS-copia.jpg);
     height: 500px;
+    transition: 1s;
+}
+
+.grid__item1:hover {
+    transform: scale(0.9);
 }
 
 .grid__item2 {
     grid-area: item2;
     background-image: url(../img3/73862_66_ghost-of-tsushima-reduces-disk-reads-for-blazing-fast-ps4-load-times_full.jpg);
+    transition: 1s;
 }
 
+.grid__item2:hover {
+    transform: scale(0.9);
+}
 
 .grid__item3 {
     grid-area: item3;
     background-image: url(../img3/1643243333_003439_1643243556_gigante_normal.jpg);
+    transition: 1s;
+}
+
+.grid__item3:hover {
+    transform: scale(0.9);
 }
 
 .imagenes {
@@ -444,32 +510,76 @@ h3{
 
 .item9{
     background-image: url(../img3/Crash-Bandicoot-1024x576.jpg);
+    transition: 1s;
+}
+
+.item9:hover{
+    transform: scale(0.9);
 }
 
 .item10{
     background-image: url(../img3/373868.jpg);
+    transition: 1s;
+}
+
+.item10:hover{
+    transform: scale(0.9);
 }
 
 .item11{
     background-image: url(../img3/thumb-1920-333894.jpg);
+    transition: 1s;
+}
+
+.item11:hover {
+    transform: scale(0.9);
 }
 
 .item12{
     background-image: url(../img3/1926268.webp);
+    transition: 1s;
+}
+
+.item12:hover {
+    transform: scale(0.9);
 }
 
 .item13{
     background-image: url(../img3/fifa-23-messi-sbc-solution-potm.jpeg);
+    transition: 1s;
+}
+
+.item13:hover {
+    transform: scale(0.9);
 }
 
 .item14{
     background-image: url(../img3/shadow-of-the-colossus-2018-ps4-6w.jpg);
+    transition: 1s;
+}
+
+.item14:hover{
+    transform: scale(0.9);
 }
 
 .item15{
     background-image: url(../img3/wp1913622.jpg);
+    transition: 1s;
+}
+
+.item15:hover{
+    transform: scale(0.9);
 }
 
 .item16{
     background-image: url(../img3/413137-assassins-creed-hd-wallpaper-2200x1238-xiaomi.jpg);
+    transition: 1s;
+}
+
+.item16:hover {
+    transform: scale(0.9);
+}
+
+.navbar-collapse.collapse.show{
+    z-index: 1;
 }
