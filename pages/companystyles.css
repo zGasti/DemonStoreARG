@@ -163,22 +163,11 @@ footer .website-logo{
     border-radius: 50%;
 }
 
-p1{
-    color: white;
-    text-shadow: 0 0 5px red;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 3rem;
-    padding-left: 41rem;
-}
-
-@media (max-width: 580px){
+@media (min-width: 580px){
     body{
         padding: 0;
     }
     footer{
-        padding: 0;
-    }
-    p1{
         padding: 0;
     }
 }
